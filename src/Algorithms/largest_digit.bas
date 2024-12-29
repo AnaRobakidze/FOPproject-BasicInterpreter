@@ -1,0 +1,10 @@
+LET N = 34856
+LET MAX_DIGIT = 0
+WHILE N > 0
+    LET DIGIT = N MOD 10
+    IF DIGIT > MAX_DIGIT THEN
+        LET MAX_DIGIT = DIGIT
+    END IF
+    LET N = N \ 10
+WEND
+PRINT "Largest digit is "; MAX_DIGIT
