@@ -18,3 +18,4 @@ public class VariableStorage {
         return variables.containsKey(name);
     }
 }
+
