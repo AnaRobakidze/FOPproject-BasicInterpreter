@@ -4,18 +4,17 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class VariableStorage {
-    private static final Map<String, Integer> variables = new HashMap<>();
+    private final Map<String, Integer> variables;
 
-    public static void assignVariable(String name, int value) {
+    public VariableStorage() {
+        variables = new HashMap<>();
+    }
+
+    public void setVariable(String name, int value) {
         variables.put(name, value);
     }
 
-    public static Integer getVariableValue(String name) {
-        return variables.get(name);
-    }
-
-    public static boolean isVariableDefined(String name) {
-        return variables.containsKey(name);
+    public int getVariable(String name) {
+        return variables.getOrDefault(name, 0); // default value is 0 if the variable is not found
     }
 }
-
