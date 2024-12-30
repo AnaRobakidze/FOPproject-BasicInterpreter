@@ -1,7 +1,5 @@
 
 
-import java.util.Arrays;
-
 public class BasicInterpreter {
     private final VariableStorage variableStorage;
 
