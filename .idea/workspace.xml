@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b66c6ace-2508-437b-8a3a-61c621acdcdf" name="Changes" comment="update basicinterpreter.java">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildingbasicINTERPRETER.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/BasicProgramExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b66c6ace-2508-437b-8a3a-61c621acdcdf" name="Changes" comment="update everything">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Algorithms/check_palindrome.bas" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Algorithms/check_prime.basic" beforeDir="false" />
@@ -68,44 +64,45 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.com.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name=" (1)" type="Application" factoryName="Application" folderName="New Folder">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Users\User\.jdks\openjdk-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="buildingbasicINTERPRETER" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration type="Application" factoryName="Application" temporary="true">
+      <module name="buildingbasicINTERPRETER" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Users\User\.jdks\openjdk-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="buildingbasicINTERPRETER" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="buildingbasicINTERPRETER" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="C:\Users\User\.jdks\openjdk-21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.main" />
+      <option name="MAIN_CLASS_NAME" value="com.main " />
       <module name="buildingbasicINTERPRETER" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Main" />
-      <module name="buildingbasicINTERPRETER" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application. (1)" />
       <item itemvalue="Application.buildingbasicINTERPRETER" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.com.Main" />
+      <item itemvalue="Application." />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application." />
         <item itemvalue="Application.com.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735550254237</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update everything">
+      <option name="closed" value="true" />
+      <created>1735653303131</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1735653303131</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,6 +268,7 @@
     <MESSAGE value="basicinterpreter" />
     <MESSAGE value="update basicinterpreter" />
     <MESSAGE value="update basicinterpreter.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="update basicinterpreter.java" />
+    <MESSAGE value="update everything" />
+    <option name="LAST_COMMIT_MESSAGE" value="update everything" />
   </component>
 </project>
